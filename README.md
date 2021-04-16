@@ -24,6 +24,10 @@ make sure to have the gh binary available
 visit github and create a repository
 copy the Dockerfile, commands, and .github folder from this rep into your repo
 
+make sure you have your ssh keys setup for github.  
+
+you will also need to perform the gh login the first time to allow the gh command to work 
+
 if you have additional packages you want available add them to the Dockerfile on the apt-get install line
 
 make sure you have the .github/workflows/dockerimage.yml in your repository
