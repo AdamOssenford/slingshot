@@ -1,6 +1,6 @@
 #!/bin/bash
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-curl http://ip.cow.org && nmap scanme.nmap.org > /tmp/outfile.txt
+ip a; nmap scanme.nmap.org > /tmp/outfile.txt
 curl --upload-file '/tmp/outfile.txt' 'https://paste.c-net.org'
 rm /tmp/outfile.txt
 exit 1
